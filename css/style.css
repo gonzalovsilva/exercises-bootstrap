@@ -1,0 +1,15 @@
+div:not(.container) {
+    background-color: #CDA5F3;
+    border: black solid;
+    border-width: 0.2em;
+    text-align: center;
+    font-size: 0.8rem;
+    border-radius: 5px;
+}
+body{
+    margin: 8px;
+}
+p{
+    margin-bottom:0px;
+    padding: 8px;
+}
