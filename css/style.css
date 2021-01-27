@@ -1,23 +1,18 @@
-div:not(.container):not(.container-fluid):not(.row) {
-    background-color: #CDA5F3;
-    border: black solid;
-    border-width: 0.2em;
+.container, .container-fluid p{
     text-align: center;
-    font-size: 0.8rem;
-    border-radius: 5px;
+    margin: 8px 0;
 }
-.withBG{
-    background-color: #CDA5F3;
-    border: black solid;
-    border-width: 0.2em;
-    text-align: center;
-    font-size: 0.8rem;
-    border-radius: 5px;
-}
+
 body{
-    margin: 8px;
+    padding:8px
 }
-p{
-    margin-bottom:0px;
-    padding: 8px;
+*{
+    margin:0px;
+    padding:0px;
+}
+.rose{
+    background-color: #CDA5F3;
+}
+.lgrey{
+    background-color: #D8D8D8;
 }
