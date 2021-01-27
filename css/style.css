@@ -1,4 +1,12 @@
-div:not(.container) {
+div:not(.container):not(.container-fluid):not(.row) {
+    background-color: #CDA5F3;
+    border: black solid;
+    border-width: 0.2em;
+    text-align: center;
+    font-size: 0.8rem;
+    border-radius: 5px;
+}
+.withBG{
     background-color: #CDA5F3;
     border: black solid;
     border-width: 0.2em;
